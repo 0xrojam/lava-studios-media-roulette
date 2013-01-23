@@ -1,0 +1,23 @@
+#summary Updates on Media Roulette Wheel App for Android
+
+= Introduction =
+
+Lava Studios' first major App is now in full production!
+This wiki page is used for documentation on progress of the App.
+The anticipated time of Completion is approx. 6 weeks, which will be broken into 3 main Agile Development cycles.
+
+
+= User Stories =
+
+Build Cycle 1 (from 01/21 to 02/04):
+  * App foundation is established and agreed upon. (sketches included)
+  * User will be able to cycle thru pages seen in sketch, with buttons.
+  * App Logo created
+  * Lava Studios splash screen will be ordered (hopefully)
+  * Button images hopefully delegated (via Kim Do)
+
+Things to be addressed in future Build Cycles:
+  * Dataflow established. (File management)
+  * Motion of actual roulette wheel on touch
+      -> Then through pull
+  * Audio
