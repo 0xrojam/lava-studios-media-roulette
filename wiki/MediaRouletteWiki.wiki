@@ -9,6 +9,16 @@ The anticipated time of Completion is approx. 6 weeks, which will be broken into
 
 = User Stories =
 
+
+Build Cycle 2 (from 02/04 to 02/18):
+  *Lava Studios Logo ordered (michael_bailey via www.fiverr.com)
+   -> anticipated logo deployment is today date (02/04)
+  *Kelsey Everett delegated to graphics
+  *Buttons/Background done
+  *Foundation and Logic worked on
+  *Still on pace for alpha testing after this BC
+
+
 Build Cycle 1 (from 01/21 to 02/04):
   * App foundation is established and agreed upon. (sketches included)
   * User will be able to cycle thru pages seen in sketch, with buttons.
