@@ -1,14 +1,38 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
     tools:context=".MainActivity" >
 
-    <TextView
+    <ImageButton
+        android:id="@+id/aboutButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:src="@drawable/aboutstyle" />
+
+    <ImageButton
+        android:id="@+id/editListButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:layout_marginBottom="59dp"
+        android:background="@null"
+        android:src="@drawable/editstyle" />
+
+    <ImageButton
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/aboutButton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="44dp"
+        android:background="@null"
+        android:src="@drawable/startstyle" />
 
 </RelativeLayout>

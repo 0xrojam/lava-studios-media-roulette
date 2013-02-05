@@ -4,5 +4,9 @@
     <string name="app_name">Media Roulette</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_edit_list">EditList</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="testStr">Test Strings</string>
 
 </resources>
