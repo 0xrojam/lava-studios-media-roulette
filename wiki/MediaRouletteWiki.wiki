@@ -11,12 +11,20 @@ The anticipated time of Completion is approx. 6 weeks, which will be broken into
 
 
 Build Cycle 2 (from 02/04 to 02/18):
-  *Lava Studios Logo ordered (michael_bailey via www.fiverr.com)
-   -> anticipated logo deployment is today date (02/04)
-  *Kelsey Everett delegated to graphics
-  *Buttons/Background done
-  *Foundation and Logic worked on
-  *Still on pace for alpha testing after this BC
+*Update* (02/05/2013)
+  * Buttons installed with glow effect
+  * Functionality of buttons in place (intents to new activities)
+  * Lava Studios Logo was rejected. Poor submission by michael_baily.
+    -> requested revision, will give 48-hour extension
+  * Rev. 2 of background logo "leaked" for popularity
+
+Set 02/04/2013
+  * Lava Studios Logo ordered (michael_bailey via www.fiverr.com)
+    -> anticipated logo deployment is today date (02/04)
+  * Kelsey Everett delegated to graphics
+  * Buttons/Background done
+  * Foundation and Logic worked on
+  * Still on pace for alpha testing after this BC
 
 
 Build Cycle 1 (from 01/21 to 02/04):
