@@ -10,7 +10,7 @@ The anticipated time of Completion is approx. 6 weeks, which will be broken into
 == User Stories ==
 
 
-=Build Cycle 2= (from 02/04 to 02/18):
+=== Build Cycle 2 === (from 02/04 to 02/18):
 
 *Update* (02/05/2013)
   * Buttons installed with glow effect
@@ -28,7 +28,7 @@ Set 02/04/2013
   * Still on pace for alpha testing after this BC
 
 
-=Build Cycle 1= (from 01/21 to 02/04):
+=== Build Cycle 1 === (from 01/21 to 02/04):
   * App foundation is established and agreed upon. (sketches included)
   * User will be able to cycle thru pages seen in sketch, with buttons.
   * App Logo created
