@@ -25,11 +25,12 @@ public final class R {
         public static final int startstyle=0x7f02000b;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f070000;
-        public static final int aboutButton=0x7f070001;
-        public static final int editListButton=0x7f070002;
-        public static final int menu_settings=0x7f070004;
-        public static final int startButton=0x7f070003;
+        public static final int RelativeLayout1=0x7f070001;
+        public static final int aboutButton=0x7f070002;
+        public static final int editListButton=0x7f070003;
+        public static final int editText1=0x7f070000;
+        public static final int menu_settings=0x7f070005;
+        public static final int startButton=0x7f070004;
     }
     public static final class layout {
         public static final int activity_about_us=0x7f030000;
