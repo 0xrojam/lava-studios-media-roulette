@@ -6,12 +6,44 @@
     tools:context=".EditList" >
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/enterText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
-        android:ems="10" />
+        android:ems="10"
+        android:hint="@string/instructions"
+        android:lines="1"
+        android:maxLines="1" />
+
+    <ImageButton
+        android:id="@+id/enterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterText"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:src="@drawable/enterstyle" />
+
+    <ImageButton
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/enterButton"
+        android:layout_below="@+id/enterButton"
+        android:background="@null"
+        android:src="@drawable/clearstyle" />
+
+    <EditText
+        android:id="@+id/listText"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_alignLeft="@+id/enterText"
+        android:layout_alignRight="@+id/enterText"
+        android:layout_below="@+id/clearButton"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="none" />
 
 </RelativeLayout>

@@ -1,11 +1,13 @@
 package com.LavaStudios.mediaroulette;
 
 import android.os.Bundle;
+import android.os.Environment;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -18,6 +20,10 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
+        if(!Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())){
+            Toast.makeText(this, "External SD card not mounted", Toast.LENGTH_LONG).show();
+        }
         
         ImageButton start = (ImageButton) findViewById(R.id.startButton);
         ImageButton editList = (ImageButton) findViewById(R.id.editListButton);

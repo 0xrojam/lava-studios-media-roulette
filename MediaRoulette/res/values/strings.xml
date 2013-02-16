@@ -8,5 +8,6 @@
     <string name="title_activity_edit_list">EditList</string>
     <string name="title_activity_about_us">AboutUs</string>
     <string name="testStr">Test Strings</string>
+    <string name="instructions">Type entry in here, then press Enter</string>
 
 </resources>
