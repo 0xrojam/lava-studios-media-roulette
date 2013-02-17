@@ -43,7 +43,11 @@
         android:layout_alignRight="@+id/enterText"
         android:layout_below="@+id/clearButton"
         android:layout_marginTop="14dp"
+        android:clickable="false"
         android:ems="10"
-        android:inputType="none" />
+        android:focusable="false"
+        android:gravity="center_vertical|top"
+        android:inputType="none"
+        android:paddingTop="0dp" />
 
 </RelativeLayout>
