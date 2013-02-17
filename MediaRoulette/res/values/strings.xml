@@ -9,5 +9,11 @@
     <string name="title_activity_about_us">AboutUs</string>
     <string name="testStr">Test Strings</string>
     <string name="instructions">Type entry in here, then press Enter</string>
-
+    <string name="instruct">Hello! Welcome to Media Roulette! This app is intended to help
+        those who need to make a decision, but are plagued with too many options.
+        Follow the directions below and your decision will be made!!!\n\n1.) From Main Menu, click on Edit List\n2.) Enter all
+        entries one at a time by pressing Enter button. The text box below the buttons
+        will populate your list.\n 3.) Go back to the Main Menu and click on Start.\n
+        4.) Give the wheel a spin, and there\'s your decision!  </string>
+    
 </resources>
