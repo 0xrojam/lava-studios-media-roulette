@@ -25,13 +25,14 @@ public final class R {
         public static final int enterbutton=0x7f02000b;
         public static final int enterselect=0x7f02000c;
         public static final int enterstyle=0x7f02000d;
-        public static final int ic_launcher=0x7f02000e;
-        public static final int lavastudios=0x7f02000f;
-        public static final int lavastudiosalt=0x7f020010;
-        public static final int mainbackground=0x7f020011;
-        public static final int startbutton=0x7f020012;
-        public static final int startselect=0x7f020013;
-        public static final int startstyle=0x7f020014;
+        public static final int fullwheelcentered=0x7f02000e;
+        public static final int ic_launcher=0x7f02000f;
+        public static final int lavastudios=0x7f020010;
+        public static final int lavastudiosalt=0x7f020011;
+        public static final int mainbackground=0x7f020012;
+        public static final int startbutton=0x7f020013;
+        public static final int startselect=0x7f020014;
+        public static final int startstyle=0x7f020015;
     }
     public static final class id {
         public static final int AbsoluteLayout1=0x7f070000;
@@ -43,8 +44,10 @@ public final class R {
         public static final int enterText=0x7f070002;
         public static final int imageView1=0x7f070001;
         public static final int listText=0x7f070005;
-        public static final int menu_settings=0x7f07000a;
+        public static final int menu_settings=0x7f07000c;
+        public static final int resultField=0x7f07000b;
         public static final int startButton=0x7f070009;
+        public static final int wheelImage=0x7f07000a;
     }
     public static final class layout {
         public static final int activity_about_us=0x7f030000;
@@ -68,6 +71,7 @@ public final class R {
         public static final int title_activity_about_us=0x7f040005;
         public static final int title_activity_edit_list=0x7f040004;
         public static final int title_activity_start=0x7f040003;
+        public static final int wheelHint=0x7f040009;
     }
     public static final class style {
         /** 
