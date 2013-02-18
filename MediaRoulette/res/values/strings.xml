@@ -15,6 +15,7 @@
         entries one at a time by pressing Enter button. The text box below the buttons
         will populate your list.\n 3.) Go back to the Main Menu and click on Start.\n
         4.) Give the wheel a spin, and there\'s your decision!  </string>
-    <string name="wheelHint">Click the wheel to spin...</string>
-    
+    <string name="wheelHint">Click the wheel to spin!</string>
+    <string name="title_activity_splash">Splash</string>
+
 </resources>

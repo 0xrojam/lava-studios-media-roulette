@@ -7,11 +7,12 @@ import java.io.InputStreamReader;
 import java.util.Random;
 import java.util.Vector;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;
 import android.view.Menu;
-import android.view.MotionEvent;
+
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.Animation;
@@ -32,7 +33,7 @@ public class Start extends Activity {
         		Animation.RELATIVE_TO_SELF, 0.5f);  
         animation.setInterpolator(new LinearInterpolator());
         animation.setRepeatCount(3);
-        animation.setDuration(1000);
+        animation.setDuration(600);
        
         final TextView result = (TextView) findViewById(R.id.resultField);
         
@@ -44,6 +45,10 @@ public class Start extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
         		result.setText("");
+        		MediaPlayer chime;
+        		chime = MediaPlayer.create(Start.this, R.raw.wheelsfx);
+        		chime.start();
+        		
 				wheelImage.startAnimation(animation);
 				Vector<String> strs = new Vector<String>();
 				try {
@@ -56,7 +61,7 @@ public class Start extends Activity {
 					while ((aDataRow = myReader.readLine()) != null) {
 						strs.add(aDataRow);
 					}
-					
+					myReader.close();
 				} catch (Exception e) {
 					Toast.makeText(getBaseContext(), e.getMessage(),
 							Toast.LENGTH_SHORT).show();
