@@ -1,0 +1,40 @@
+# Introduction #
+
+Lava Studios' first major App is now in full production!
+This wiki page is used for documentation on progress of the App.
+The anticipated time of Completion is approx. 6 weeks, which will be broken into 3 main Agile Development cycles.
+
+
+## User Stories ##
+
+
+### Build Cycle 2  (from 02/04 to 02/18): ###
+
+**Update** (02/05/2013)
+  * Buttons installed with glow effect
+  * Functionality of buttons in place (intents to new activities)
+  * Lava Studios Logo was rejected. Poor submission by michael\_baily.
+> > -> requested revision, will give 48-hour extension
+  * Rev. 2 of background logo "leaked" for popularity
+
+Set 02/04/2013
+  * Lava Studios Logo ordered (michael\_bailey via www.fiverr.com)
+> > -> anticipated logo deployment is today date (02/04)
+  * Kelsey Everett delegated to graphics
+  * Buttons/Background done
+  * Foundation and Logic worked on
+  * Still on pace for alpha testing after this BC
+
+
+### Build Cycle 1  (from 01/21 to 02/04): ###
+  * App foundation is established and agreed upon. (sketches included)
+  * User will be able to cycle thru pages seen in sketch, with buttons.
+  * App Logo created
+  * Lava Studios splash screen will be ordered (hopefully)
+  * Button images hopefully delegated (via Kim Do)
+
+Things to be addressed in future Build Cycles:
+  * Dataflow established. (File management)
+  * Motion of actual roulette wheel on touch
+> > -> Then through pull
+  * Audio

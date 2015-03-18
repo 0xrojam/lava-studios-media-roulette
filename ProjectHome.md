@@ -1,0 +1,1 @@
+User is presented with Roulette Wheel
